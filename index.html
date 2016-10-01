@@ -69,7 +69,7 @@
 		<div class="prev arrow"></div>
 		<div class="next arrow"></div>
 		<div class="slider">
-			<div><img src="pic/8.jpg" alt=""></div>
+			
 			<div><img src="pic/1.jpg" alt=""></div>
 			<div><img src="pic/2.jpg" alt=""></div>
 			<div><img src="pic/3.jpg" alt=""></div>
@@ -77,6 +77,7 @@
 			<div><img src="pic/5.jpg" alt=""></div>
 			<div><img src="pic/6.jpg" alt=""></div>
 			<div><img src="pic/7.jpg" alt=""></div>
+			<div><img src="pic/8.jpg" alt=""></div>
 		
 		</div>
 		
@@ -102,6 +103,12 @@
 	<script type="text/javascript" src="slick.min.js">
 	</script>
 	<script type="text/javascript" src="script.js"></script>
+
+		<script type="text/javascript">
+  function setBigImage(foto) {
+    document.getElementById("bigimg").src = foto.src;
+  }
+</script>
 
 </body>
 </html>
