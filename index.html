@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS</title>
+
+	
+	
+	<link rel="stylesheet" type="text/css" href="slick.css"/>
+	<link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+	<section class="head">
+		<h1>
+			JavaScript
+		</h1>
+		<hr align="center" width="50" size="2" color="#0199E6" />
+	</section>
+
+
+	<div class="section">
+	<section>
+		<ul class="tabs">
+			<li>Gallery</li>
+			<li class="current">Slider</li>
+			<li>Spoiler</li>
+		</ul>	
+	</section>
+
+	<section class="box">
+<div>
+  <p class="main_img">
+    <img id='bigimg' src='pic/1.jpg' alt='Основное изображение' />
+  </p>
+  
+    <ul class="gallery">
+      <li>
+        <img src = 'pic/1.jpg'  onclick = 'setBigImage(this)' alt = 'Изображение 1' />
+      </li>
+      <li>
+        <img src = 'pic/2.jpg'  onclick = 'setBigImage(this)' alt = 'Изображение 2' />
+      </li>
+      <li>
+        <img src = 'pic/3.jpg'onclick = 'setBigImage(this)' alt = 'Изображение 3' />
+      </li>
+      <li>
+        <img src = 'pic/4.jpg' onclick = 'setBigImage(this)' alt = 'Изображение 4' />
+      </li>
+      <li>
+        <img src = 'pic/5.jpg' onclick = 'setBigImage(this)' alt = 'Изображение 5' />
+      </li>
+      <li>
+        <img src = 'pic/6.jpg' onclick = 'setBigImage(this)' alt = 'Изображение 6' />
+      </li>
+		<li>
+        <img src = 'pic/7.jpg' onclick = 'setBigImage(this)' alt = 'Изображение 7' />
+      </li>
+      <li>
+        <img src = 'pic/8.jpg' onclick = 'setBigImage(this)' alt = 'Изображение 8' />
+      </li>
+      </ul>
+
+</div>
+
+	</section>
+
+		<section class="box visible">
+		<div class="prev arrow"></div>
+		<div class="next arrow"></div>
+		<div class="slider">
+			<div><img src="pic/8.jpg" alt=""></div>
+			<div><img src="pic/1.jpg" alt=""></div>
+			<div><img src="pic/2.jpg" alt=""></div>
+			<div><img src="pic/3.jpg" alt=""></div>
+			<div><img src="pic/4.jpg" alt=""></div>
+			<div><img src="pic/5.jpg" alt=""></div>
+			<div><img src="pic/6.jpg" alt=""></div>
+			<div><img src="pic/7.jpg" alt=""></div>
+		
+		</div>
+		
+	</section>
+
+		<section class="box">
+		<div class="spoiler_links">Spoiler</div>
+	<div class="spoiler_body">Spoiler text.</div>
+
+	<div class="spoiler_links">Spoiler</div>
+	<div class="spoiler_body">Spoiler text.</div>
+
+	<div class="spoiler_links">Spoiler</div>
+	<div class="spoiler_body">Spoiler text.</div>
+
+	<div class="spoiler_links">Spoiler</div>
+	<div class="spoiler_body">Spoiler text.</div>
+	</section>
+	</div>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+	</script>
+	<script type="text/javascript" src="slick.min.js">
+	</script>
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "Raleway-Medium"; 
+    src: url(fonts/Raleway-Medium.ttf);
+}
+
+body {
+	background-color:  #F7F8FA;
+	font-family: "Raleway-Medium";
+}
+
+.head {
+	text-align: center;
+}
+
+.checked {
+    background: url(pic/check.png);
+    background-size: cover;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    float: right;
+    margin-top: 15px;
+}
+
+.cross {
+    background: url(pic/cross.png);
+    background-size: cover;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    float: right;
+    margin-top: 15px;
+}
+
+.section {
+  
+    margin: 0 0 30px;
+}
+ul.tabs {
+    height: 28px;
+    line-height: 25px;
+    list-style: none;  
+    margin-top: 36px;
+}
+
+.tabs {
+	text-align: center;
+}
+.tabs li {
+    display: inline-block;
+    margin-top: -15px;
+    padding: 10px 60px 10px;
+    color: white;
+    cursor: pointer;
+    background: #323232;
+    border-bottom: 1px solid #F9F9F9;
+    position: relative;
+}
+
+.tabs li.current {
+    color: white;
+    background: #0199E6;
+}
+.box {
+    display: none;
+    margin: 0 auto; 
+    line-height: 40px;
+}
+.box.visible {
+    display: block;
+}
+
+.btn {
+    text-decoration: none;
+    border: 2px solid #0199E6;
+    border-radius: 4px;
+    color: white;
+    padding: 7px 12px 7px 12px;
+    font-size: 16px;
+    background-color: #0199E6;
+}
+
+.box li {
+	list-style-type:none;
+}
+
+footer p {
+    margin: 0 auto;
+    width: 201px;
+    font-weight: bold;
+}
+
+.gallery li {
+    display: inline-block;
+    list-style-type:none;
+    width: 100px;
+    height: 62px;
+    overflow:hidden;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+ul {
+    text-align: center;
+    padding: 0;
+}
+
+.main_img {
+    text-align: center;
+}
+
+#bigimg {
+    height: 400px;
+
+}
+
+
+ .spoiler_body { 
+    display:none; 
+    font-style:italic; 
+    cursor: pointer;
+    text-align: center;
+}
+ .spoiler_links { 
+    cursor:pointer; 
+    font-weight:bold; 
+    border-bottom: 1px dotted black;
+    width: 55px;
+    margin: 0 auto;   
+}
+ 
+.slider img {
+    max-width: 305px;
+}
+
+.slick-slide {
+    outline: none;
+    height: 190px;
+    overflow: hidden;
+}
+ 
+.arrow {
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    margin-top: 76px;
+}
+
+.prev {
+    background-image: url(pic/back.png);
+    float: left;
+}
+
+.next {
+    background-image: url(pic/next.png);
+    float: right;
+}
+
+.slider {
+    position: static;
+}
